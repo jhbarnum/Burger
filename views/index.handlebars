@@ -3,13 +3,23 @@
 <h2>Eat Me...</h2>
 
 <ul>
-    {{#each burgers}} {{#unless devoured}} {{> burgers/burgers}} {{/unless}} {{/each}}
+    {{#each burgers}} {{#unless devoured}} 
+    <li>
+        <h5>{{id}}. {{burger_name}}
+            <button class="eat-burger" data-id="{{this.id}}">Eat Me!</button>
+        </h5>
+    </li>
+     {{/unless}} {{/each}}
 </ul>
 
 <h2>Devoured Burgers... Yum</h2>
 
 <ul>
-    {{#each burgers}} {{#if devoured}} {{> burgers/eaten}} {{/if}} {{/each}}
+    {{#each burgers}} {{#if devoured}} 
+    <li>
+        <h5>{{id}}. {{burger_name}}</h5>
+    </li>
+    {{/if}} {{/each}}
 </ul>
 
 <h2>Add a Burg</h2>
