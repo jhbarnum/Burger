@@ -17,3 +17,6 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+.jumbotron {
+background-image: url("/assets/img/burgerImg.jpg");
+background-size: cover;}
