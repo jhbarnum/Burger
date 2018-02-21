@@ -1,6 +1,3 @@
-   	// * `selectAll()` 
-    // * `insertOne()` 
-    // * `updateOne()`
 
 var connection = require('../config/connection.js');
 
