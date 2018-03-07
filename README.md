@@ -6,7 +6,7 @@
 
 ##Just type the name of the burger you want in the text box.
 
-![alt text](/assets/img/addBurger.png)
+![alt text](public/assets/img/addBurger.png)
 
 ##Once you have eaten the burger, you can take it off your list!
 
