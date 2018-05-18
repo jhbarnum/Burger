@@ -88,6 +88,7 @@ var orm = {
     });
   },
   delete: function (table, condition, cb) {
+    console.log("help")
     var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
     queryString += condition;
